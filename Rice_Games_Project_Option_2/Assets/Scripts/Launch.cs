@@ -38,7 +38,7 @@ public class Launch : MonoBehaviour
    
     public static bool playerDied = false;
     
-    private int score, highScore, randomIndexButton, wrongButton, wrongMat, wrongSecondButton, wrongSecondMat, increment=1;
+    private int score, ballCount, highScore, randomIndexButton, wrongButton, wrongMat, wrongSecondButton, wrongSecondMat, increment=1;
 
     int ranIndex;
 
@@ -102,10 +102,11 @@ public class Launch : MonoBehaviour
             Debug.Log("The ball's material index is: " + theMat);
             theBullet.GetComponent<Rigidbody>().AddForce(throwlocation.transform.forward * rockImpulse, ForceMode.Impulse);
             yield return new WaitForSeconds(2f);
-            if (score % 6 == 0 && score >= 6)
+            if (ballCount % 6 == 0 && ballCount >= 6)
             {
                 increment *= 2;
             }
+            ballCount++;
             score += increment;
             rockImpulse += 1f;
 
