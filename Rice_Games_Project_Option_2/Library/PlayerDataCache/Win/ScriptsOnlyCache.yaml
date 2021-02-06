@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
     Assembly-CSharp.dll:
     - Bullet
+    - GameManager
     - Launch
     - Reporter
     - ReporterMessageReceiver
@@ -103,6 +104,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13314}
     - Class: 114
       Script: {instanceID: 13420}
+    - Class: 114
+      Script: {instanceID: 17638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -476,7 +479,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 6fde763fdc8f276c006c34bc3b405530
+      Hash: 67a139030fe7fdd658099b967ea7c77d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launch
@@ -1211,12 +1214,6 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
     className: Rotate
   - hash:
       serializedVersion: 2
@@ -1350,7 +1347,19 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: c472877fbb18495cb5ec3d598ac035cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadJSON
   platform: 5
   scenePathNames:
   - Assets/Scenes/Color Typer.unity
-  playerPath: D:/Color Typer/Build/Rice Games Executable Preethi Venkataraman.exe
+  playerPath: D:/Rice Games Executable Preethi Venkataraman.exe
