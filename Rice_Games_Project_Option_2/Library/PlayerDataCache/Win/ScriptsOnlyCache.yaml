@@ -89,23 +89,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 12692}
+      Script: {instanceID: 12242}
     - Class: 114
-      Script: {instanceID: 12710}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 12716}
+      Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13194}
+      Script: {instanceID: 13008}
     - Class: 114
-      Script: {instanceID: 13314}
+      Script: {instanceID: 13198}
     - Class: 114
-      Script: {instanceID: 13420}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 17638}
+      Script: {instanceID: 13422}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -479,7 +479,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 67a139030fe7fdd658099b967ea7c77d
+      Hash: ea8578f3987e2bc84e3abc7614926aa4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launch
@@ -665,6 +665,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: c472877fbb18495cb5ec3d598ac035cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Characters.ThirdPerson
@@ -771,6 +777,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadJSON
   - hash:
       serializedVersion: 2
       Hash: 21ee95b4add1eb6d3d25a1efaa2d13d9
@@ -1347,19 +1359,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: c472877fbb18495cb5ec3d598ac035cb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadJSON
   platform: 5
   scenePathNames:
   - Assets/Scenes/Color Typer.unity
-  playerPath: D:/Rice Games Executable Preethi Venkataraman.exe
+  playerPath: D:/Color Typer Build/Rice Games Executable Preethi Venkataraman.exe
